@@ -15,6 +15,7 @@ body{
   margin: 0 auto;
   background-color: white;
   border-radius: 2%;
+  padding-bottom: 40px;
 }
 
 /* HEADER */
@@ -66,5 +67,11 @@ hr{
   border: 2px solid lightgrey;
 }
 
+.list{
+  margin-top: 40px;
+}
 
+.list h2{
+  display: inline-block;
+}
 /* ----------- */
