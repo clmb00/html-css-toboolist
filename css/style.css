@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: lightgrey;
+  background-color: #F6F8F9;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -70,7 +70,7 @@ main section{
 }
 
 hr{
-  border: 2px solid lightgrey;
+  border: 2px solid #F6F8F9;
 }
 
 /* NOME DELLA SEZIONE DELLA LISTA */
