@@ -8,6 +8,14 @@ body{
   background-color: lightgrey;
 }
 
+.container{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 2%;
+}
+
 /* HEADER */
 header{
   background-color: white;
@@ -24,4 +32,38 @@ header div{
   display: inline-block;
   vertical-align: middle;
 }
+/* ----------- */
+
+/* MAIN */
+
+main section{
+  padding-left: 50px;
+}
+
+.add-bar{
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.button-add{
+  display: inline-block;
+  padding: 6px 10px 6px 10px;
+  border-radius: 10%;
+  border: 2px solid lightgrey;
+  color: lightgrey;
+  font-size: 0.9rem;
+}
+
+.task{
+  background-color: #47ADF1;
+  border-color: #47ADF1;
+  color: white;
+}
+
+hr{
+  border: 2px solid lightgrey;
+}
+
+
 /* ----------- */
