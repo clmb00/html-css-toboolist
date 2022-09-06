@@ -26,15 +26,15 @@ header{
   padding: 10px;
 }
 
-h1{
-  display: inline-block;
-  font-size: 2.5rem;
-  vertical-align: middle;
-}
-
 header div{
   display: inline-block;
   vertical-align: middle;
+}
+
+h1{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 2.5rem;
 }
 
 /* ----------- */
@@ -148,6 +148,10 @@ li .no{
 .sales{
   background-color: #b0c926;
   border-color: #b0c926;
+}
+
+.hide{
+  visibility: hidden;
 }
 
 /* ----------- */
