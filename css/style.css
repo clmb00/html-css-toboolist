@@ -76,11 +76,15 @@ hr{
   display: inline-block;
 }
 
-.item{
+ol{
+  list-style-type: none;
+}
+
+li{
   padding-top: 20px;
 }
 
-.item .check{
+li .check{
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -92,11 +96,11 @@ hr{
   margin-right: 5px;
 }
 
-.item .yes{
+li .yes{
   color: rgb(42, 180, 42);
 }
 
-.item .no{
+li .no{
   color: red;
   border-color: red;
 }
