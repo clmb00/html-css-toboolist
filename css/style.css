@@ -20,6 +20,7 @@ body{
 }
 
 /* HEADER */
+
 header{
   background-color: white;
   padding: 10px;
@@ -35,29 +36,33 @@ header div{
   display: inline-block;
   vertical-align: middle;
 }
+
 /* ----------- */
 
 /* MAIN */
 
 main section{
   padding-left: 50px;
+  margin-top: 40px;
 }
 
+/* BUTTON BAR */
 .add-bar{
-  margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
+/* GENERAL BUTTON */
 .button-add{
   display: inline-block;
   padding: 6px 10px 6px 10px;
-  border-radius: 8px;
   border: 2px solid lightgrey;
+  border-radius: 8px;
   color: lightgrey;
   font-size: 0.9rem;
 }
 
+/* TASK BUTTON */
 .task{
   background-color: #47ADF1;
   border-color: #47ADF1;
@@ -68,10 +73,7 @@ hr{
   border: 2px solid lightgrey;
 }
 
-.list{
-  margin-top: 40px;
-}
-
+/* NOME DELLA SEZIONE DELLA LISTA */
 .list h2{
   display: inline-block;
 }
@@ -80,10 +82,12 @@ ol{
   list-style-type: none;
 }
 
+/* SINGOLI ELEMENTI DELLA LISTA */
 li{
   padding-top: 20px;
 }
 
+/* CHECK or UNCHECK SIMBOLO */
 li .check{
   display: inline-block;
   width: 20px;
@@ -105,6 +109,7 @@ li .no{
   border-color: red;
 }
 
+/* TAG COLORATI */
 .tag{
   display: inline-block;
   font-size: 0.8rem;
@@ -114,6 +119,7 @@ li .no{
   padding: 5px 10px 5px 10px;
 }
 
+/* TIPOLOGIA DIVERSA DI TAG */
 .editorial{
   background-color: #45abea;
   border-color: #45abea;
@@ -143,4 +149,5 @@ li .no{
   background-color: #b0c926;
   border-color: #b0c926;
 }
+
 /* ----------- */
