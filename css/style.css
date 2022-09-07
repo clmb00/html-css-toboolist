@@ -31,10 +31,11 @@ header div{
   vertical-align: middle;
 }
 
-h1{
+header span{
   display: inline-block;
   vertical-align: middle;
   font-size: 2.5rem;
+  font-weight: bold;
 }
 
 /* ----------- */
@@ -78,13 +79,10 @@ hr{
   display: inline-block;
 }
 
-ol{
-  list-style-type: none;
-}
-
 /* SINGOLI ELEMENTI DELLA LISTA */
 li{
   padding-top: 20px;
+  list-style-type: none;
 }
 
 /* CHECK or UNCHECK SIMBOLO */
